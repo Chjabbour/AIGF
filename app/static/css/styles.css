@@ -1,0 +1,86 @@
+/* Add your custom CSS styles here */
+/* Customize the styles to match your branding and design preferences */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    color: #666;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.feature-item {
+    flex: 1 1 200px;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: scale(1.03);
+}
+
+.feature-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.get-started {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}

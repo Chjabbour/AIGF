@@ -1,0 +1,12 @@
+In this structure:
+
+app/ is a package that contains your Flask application.
+__init__.py is where you initialize your Flask app and other components (like SQLAlchemy, Redis, etc.).
+routes.py is where you define your routes.
+models.py is where you define your SQLAlchemy models (if you're using SQLAlchemy).
+static/ is a folder where you can store static files like CSS, JavaScript, and images.
+templates/ is a folder where you store your Jinja2 templates.
+tests/ is a package where you can write unit tests for your application.
+config.py is where you can store configuration values for your app.
+run.py is the script that you run to start the Flask development server.
+requirements.txt lists all Python dependencies for your project.
